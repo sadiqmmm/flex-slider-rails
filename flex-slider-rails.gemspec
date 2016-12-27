@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["sadiqmmm@gmail.com"]
 
   spec.summary       = spec.description
-  spec.description   = 'This gem provides the FlexSlider Javascript library for your Rails 4 and Rails 5 application.'
+  spec.description   = 'This gem provides the flexslider Javascript library for your Rails 4 and Rails 5 application.'
   spec.homepage      = 'https://github.com/sadiqmmm/flex-slider-rails'
   spec.license       = "MIT"
 
