@@ -33,12 +33,12 @@ Now you need to edit your `app/assets/javascripts/application.css` file and add 
 Now you need to edit your `app/assets/javascripts/application.js` file and add the following line:
 
 ``` javascript
-//= jquery.flexslider
+//= require jquery.flexslider
 ```
 For minified
 
 ``` javascript
-//= jquery.flexslider-min    
+//= require jquery.flexslider-min    
 ```
 
 ## Usage
