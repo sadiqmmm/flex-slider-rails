@@ -35,7 +35,7 @@ Now you need to edit your `app/assets/javascripts/application.js` file and add t
 ``` javascript
 //= jquery.flexslider
 ```
-# For minified
+For minified
 
 ``` javascript
 //= jquery.flexslider-min    
