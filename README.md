@@ -24,9 +24,21 @@ Or install it yourself as:
 
     $ gem install flex-slider-rails
 
+Now you need to edit your `app/assets/javascripts/application.css` file and add the following line:
+
+``` css
+*= require flexslider
+```
+
 Now you need to edit your `app/assets/javascripts/application.js` file and add the following line:
+
 ``` javascript
-//= require flex-slider-rails
+//= jquery.flexslider
+```
+# For minified
+
+``` javascript
+//= jquery.flexslider-min    
 ```
 
 ## Usage
