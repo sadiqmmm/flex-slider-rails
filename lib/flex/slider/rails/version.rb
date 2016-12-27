@@ -1,7 +1,7 @@
 module Flex
   module Slider
     module Rails
-      VERSION = "0.3.1"
+      VERSION = "2.6.3"
     end
   end
 end
