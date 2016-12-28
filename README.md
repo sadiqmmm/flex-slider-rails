@@ -60,7 +60,7 @@ Using with turbolinks only
 
 ``` javascript
   $(document).on("turbolinks:load", function() {
-    plyr.setup(); 
+    $('.flexslider').flexslider();
   });
 
 ```
