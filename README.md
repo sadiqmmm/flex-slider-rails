@@ -48,15 +48,22 @@ Here is the example working code to test with your Rails application.
 Add this sample code to your `app/assets/javascripts/application.js` file
 
 ``` javascript
-<!-- Place in the <head>, after the three links -->
-<script type="text/javascript" charset="utf-8">
-  $(window).load(function() {
+  $(document).ready(function(){ 
     $('.flexslider').flexslider();
   });
-</script>
+
 ```
 
 *Note:* Here i am using `gem 'jquery-turbolinks'` for using the jquery $(document).ready function 
+
+Using with turbolinks only
+
+``` javascript
+  $(document).on("turbolinks:load", function() {
+    plyr.setup(); 
+  });
+
+```
 
 Add this sample code to your template file like `index.html.erb`
 
