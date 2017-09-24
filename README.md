@@ -56,7 +56,7 @@ Add this sample code to your `app/assets/javascripts/application.js` file
 
 *Note:* Here i am using `gem 'jquery-turbolinks'` for using the jquery $(document).ready function 
 
-Using with turbolinks only
+Using with Turbolinks5 and Rails5 only
 
 ``` javascript
   $(document).on("turbolinks:load", function() {
@@ -72,13 +72,13 @@ Add this sample code to your template file like `index.html.erb`
 <div class="flexslider">
   <ul class="slides">
     <li>
-      <img src="slide1.jpg" />
+      <img src="http://via.placeholder.com/350x150" />
     </li>
     <li>
-      <img src="slide2.jpg" />
+      <img src="http://via.placeholder.com/350x150" />
     </li>
     <li>
-      <img src="slide3.jpg" />
+      <img src="http://via.placeholder.com/350x150" />
     </li>
   </ul>
 </div>
